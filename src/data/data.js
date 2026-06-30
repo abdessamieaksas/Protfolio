@@ -1,17 +1,17 @@
 export const about = {
   name: "Abdessamia Aksas",
-  role: "Full Stack Developer",
+  role: "Full Stack Developer | Backend & AI Engineer",
   about:
-    "Passionate Full Stack Developer based in Marrakech, Morocco. Curious and motivated, I enjoy learning new technologies and solving technical challenges. I have hands-on experience through academic projects and professional internships, working with modern web technologies and agile methodologies.",
+    "Full Stack Developer and AI student based in Marrakech, Morocco. Specialized in backend development, scalable REST APIs, and modern web applications using Laravel, React, and MySQL. I also work on AI-powered and mobile solutions using Python and Flutter. Passionate about software architecture, problem-solving, and building impactful technology.",
   email: "abdessamieaksas@gmail.com",
 };
 
 export const seo = {
-  title: "Abdessamia Aksas | Full Stack Developer",
+  title: "Abdessamia Aksas | Full Stack Developer & AI Engineer",
   description:
-    "Full Stack Developer skilled in React, Laravel, Tailwind CSS, MySQL, and MongoDB. Passionate about building modern, scalable, and user-focused web applications.",
+    "Full Stack Developer and AI Engineer skilled in Laravel, React, Flutter, Python, Tailwind CSS, MySQL, and MongoDB. Passionate about backend systems, AI solutions, and scalable web applications.",
   keywords:
-    "Full Stack Developer, React Developer, Laravel Developer, Web Developer, JavaScript, Tailwind CSS, MySQL, MongoDB, Portfolio",
+    "Full Stack Developer, Backend Developer, AI Engineer, Flutter Developer, React Developer, Laravel Developer, Python Developer, REST API, Tailwind CSS, MySQL, MongoDB, Portfolio",
 };
 
 export const forms = {
@@ -26,6 +26,7 @@ export const skills = [
   { name: "PHP", alt: "php logo", icon: "/php.svg" },
   { name: "React.js", alt: "react logo", icon: "/react.svg" },
   { name: "Laravel", alt: "laravel logo", icon: "/laravel.svg" },
+  { name: "Flutter", alt: "flutter logo", icon: "/flutter.svg" },
   { name: "Tailwind CSS", alt: "tailwind logo", icon: "/tailwind.svg" },
   { name: "MySQL", alt: "mysql logo", icon: "/mysql.svg" },
   { name: "MongoDB", alt: "mongodb logo", icon: "/mongodb.svg" },
@@ -41,14 +42,14 @@ export const projects = {
     {
       title: "Riad Saveurs",
       description:
-        "Team-based web application for restaurant table reservations and online meal ordering. Worked on both frontend and backend development, focusing on user experience and database integration.",
+        "Full-stack restaurant reservation and online meal ordering platform. Worked on frontend and backend development with focus on database design, user experience, and booking workflows.",
       tags: ["React", "PHP", "Tailwind CSS", "MySQL"],
       link: "https://github.com/sirconscious/Restaura",
     },
     {
       title: "Mediacraft Platform",
       description:
-        "Web platform developed for the Mediacraft club at ENS. Designed and built a responsive interface to present club activities and content.",
+        "Responsive web platform developed for the Mediacraft club at ENS to showcase activities, events, and digital content.",
       tags: ["HTML", "CSS", "JavaScript"],
       link: "https://github.com/abdessamieaksas/mediacraft1",
     },
@@ -60,14 +61,20 @@ export const experience = [
   {
     title: "Back-End Developer Intern | Afritsy (Remote)",
     description:
-      "Developed a complete backend using Laravel API. Created and documented REST endpoints for user, product, and reservation management. Worked in an Agile Scrum environment with sprint planning and collaboration. Tested API routes using Postman.",
+      "Developed scalable backend services using Laravel APIs. Designed and documented REST endpoints for users, products, and reservations. Worked in Agile Scrum environment and tested API routes with Postman.",
     date: "2025",
   },
   {
     title: "Full Stack Developer Intern | TikoSchool (PFE)",
     description:
-      "Designed and developed a school management system for tutoring services. Built an interactive dashboard to manage teachers, students, and courses. Developed the frontend using React and integrated the backend with MySQL. Collaborated on authentication logic and UI design.",
+      "Built a school management platform for tutoring services. Developed an interactive dashboard for managing teachers, students, and courses. Worked on frontend, backend integration, authentication, and UI improvements.",
     date: "2025",
+  },
+  {
+    title: "AI Intern | CodeAlpha",
+    description:
+      "Worked on AI mini-projects using Python and machine learning workflows including data preprocessing, training, evaluation, and model analysis.",
+    date: "2026",
   },
 ];
 
