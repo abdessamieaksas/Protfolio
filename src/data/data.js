@@ -40,6 +40,20 @@ export const socials = {
 export const projects = {
   pinProjects: [
     {
+      title: "Signo — AI Sign Language Translator",
+      description:
+        "Team project (3 members). AI-powered mobile application for real-time sign language recognition and translation. Contributed to gesture recognition pipeline, AI model integration, and Flutter mobile development.",
+      tags: ["Flutter", "Python", "TensorFlow Lite", "MediaPipe", "AI"],
+      link: "#private-project",
+    },
+    {
+      title: "TikoSchool Dashboard",
+      description:
+        "Team project (2 members). Full-stack school management dashboard for tutoring services. Contributed to dashboard development, authentication workflows, backend integration, and database management.",
+      tags: ["React", "PHP", "MySQL", "Dashboard"],
+      link: "#private-project",
+    },
+    {
       title: "Riad Saveurs",
       description:
         "Full-stack restaurant reservation and online meal ordering platform. Worked on frontend and backend development with focus on database design, user experience, and booking workflows.",
@@ -54,7 +68,16 @@ export const projects = {
       link: "https://github.com/abdessamieaksas/mediacraft1",
     },
   ],
-  otherProjects: [],
+
+  otherProjects: [
+    {
+      title: "Pneumonia Detection AI",
+      description:
+        "Deep learning project for pneumonia detection from chest X-ray images using medical imaging datasets. Focused on preprocessing, model training, evaluation, and prediction analysis.",
+      tags: ["Python", "TensorFlow", "CNN", "AI"],
+      link: "#coming-soon",
+    },
+  ],
 };
 
 export const experience = [
