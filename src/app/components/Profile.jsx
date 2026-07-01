@@ -11,7 +11,7 @@ export default function Profile() {
     // Simulate download
     setTimeout(() => {
       const link = document.createElement("a");
-      link.href = about.cvUrl || "/cv.pdf";
+      link.href = about.cvUrl || "/AKSAS-Abdessamia-Dévelopeur WEB FULL-STACK.pdf";
       link.download = `${about.name}_CV.pdf`;
       link.click();
       setIsDownloading(false);
